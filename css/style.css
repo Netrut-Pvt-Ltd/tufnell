@@ -3445,7 +3445,7 @@ a.pricing-value {
             27. PRELOADER CSS
 ============================================*/
 
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -3520,7 +3520,7 @@ a.pricing-value {
   to {
     -webkit-transform: scale(1, 1);
   }
-}
+} */
 
 /*=========================================
             28. BLOG PAGE CSS
