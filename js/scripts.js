@@ -26,9 +26,6 @@ jQuery(function ($) {
   "use strict";
 
   // 1. preloader
-  // $(window).ready(function() {
-  //   $('#preloader').delay(200).fadeOut('fade');
-  // });
 
   // 2. fixed navbar
   $(window).on("scroll", function () {
