@@ -67,7 +67,7 @@
 <!--loader end-->
 
 <!--header section start-->
-<header class="top">
+<!-- <header class="top">
     <div class="header-area fixed">
         <div class="container">
             <div class="row">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-md-9">
                     <div class="content-wrapper one">
-                        <!-- Main Menu Start -->
+                       
                         <div class="main-menu one text-end">
                             <nav>
                                 <ul>
@@ -165,13 +165,16 @@
                             </nav>
                         </div>
                         <div class="mobile-menu one"></div>
-                        <!-- Main Menu End -->
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</header> -->
+
+<div id="header"></div>
+
 <!--header section end-->
 
 <!--body content wrap start-->
@@ -309,104 +312,7 @@ Chairman
   </div>
   <!-- Subscribe End -->
   <!-- Footer Start -->
-  <footer class="footer-area">
-    <div class="main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="single-widget pr-60">
-              <div class="footer-logo">
-                <a href="index.html"
-                  ><img src="img/LOGO.png" alt="tufnell"
-                /></a>
-              </div>
-              <!-- <p>
-                I must explain to you how all this mistaken idea of denoung
-                pleure and praising pain was born and give you a coete account
-                of the system.
-              </p>
-              <div class="footer-social">
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/devitems/?ref=bookmarks"
-                      ><i class="zmdi zmdi-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.pinterest.com/devitemsllc/"
-                      ><i class="zmdi zmdi-pinterest"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="zmdi zmdi-vimeo"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/devitemsllc"
-                      ><i class="zmdi zmdi-twitter"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div> -->
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-widget">
-              <h3>information</h3>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About</a></li>
-                <li><a href="event.html">Our Clients</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="#">Downloads</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 pt-4 pt-lg-0">
-            <div class="single-widget">
-              <h3>useful links</h3>
-              <ul>
-                <li><a href="course.html">our courses</a></li>
-                <li><a href="about.html">about us</a></li>
-                <li><a href="teacher.html">teachers &amp; faculty</a></li>
-                <li><a href="#">teams &amp; conditions</a></li>
-                <li><a href="event.html">our events</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
-            <div class="single-widget">
-              <h3>get in touch</h3>
-              <p>
-                P.O. Bo, 122347,
-                 Al Musalla Tower,Office 1202
-                 Al Fahidi Metro Station, Bur Dubai,
-                 Dubai, UAE.
-              </p>
-              <p>+880 548 986 898 87<br />+880 659 785 658 98</p>
-              <p>info@eduhome.com<br />www.eduhome.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>
-              Copyright © <a href="index.html">Eduhome</a> 2021. All Right
-              Reserved By
-              <a
-                href="https://themeforest.net/user/hastech/portfolio"
-                target="_blank"
-                >Hastech.</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <div id="footer"></div>
 <!--footer section end-->
 
 
@@ -444,6 +350,13 @@ Chairman
 <script src="js/jquery.countdown.min.js"></script>
 <!--custom js-->
 <script src="js/scripts.js"></script>
+<script>
+  $(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+
+</script>
 </body>
 
 

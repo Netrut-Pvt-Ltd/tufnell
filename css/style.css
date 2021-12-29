@@ -4065,6 +4065,9 @@ small {
   .page-header-content > h1 {
     margin-top: 40px !important;
   }
+  .newsletter-form form button {
+    top: 62px !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -4086,6 +4089,9 @@ small {
   }
   .page-header-content > h1 {
     margin-top: 40px !important;
+  }
+  .newsletter-form form button {
+    top: 60px !important;
   }
 }
 
@@ -5956,7 +5962,7 @@ small {
 /*----------------------------------------*/
 .subscribe-area {
   background: #fafafa;
-  padding: 50px 0px;
+  padding: 80px 0px;
 }
 .subscribe-content h2 {
   margin-bottom: 5px;
@@ -6017,6 +6023,7 @@ small {
 .main-footer {
   padding-bottom: 0px;
   padding-top: 117px;
+  background: linear-gradient(to left, #2c2b63, #cef 300%);
 }
 .footer-area.three .main-footer {
   padding-bottom: 50px;
@@ -6036,7 +6043,8 @@ small {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  color: #606060;
+  /* color: #606060; */
+  color: #fff;
   margin-bottom: 45px;
   position: relative;
 }
@@ -6059,7 +6067,8 @@ small {
   width: 45px;
 }
 .single-widget p {
-  color: #7d7d7d;
+  /* color: #7d7d7d; */
+  color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -6085,7 +6094,8 @@ small {
   text-transform: capitalize;
 }
 .main-footer .single-widget a {
-  color: #606060;
+  /* color: #606060; */
+  color: #fff;
   font-weight: 600;
   font-family: "Open Sans";
 }
