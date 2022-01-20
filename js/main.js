@@ -31,10 +31,11 @@
     $('.slider-owl').owlCarousel({
         loop:true,
         nav:true,
+        autoplay:true,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        smartSpeed: 2500,
-        navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        smartSpeed: 5000,
+        navText:[' <img src="img/angle-left.svg">','<img src="img/angle-right.svg">'],
         responsive:{
             0:{
                 items:1
@@ -47,6 +48,7 @@
             }
         }
     });
+    
 
     $('.partner-owl').owlCarousel({
         loop:true,
