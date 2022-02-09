@@ -31,8 +31,29 @@
     top: -10px;
   }
   .year-highlight-text h4 span {
-    font-size: 215px;
+    font-size: 162px;
     line-height: 150px;
+  }
+  .slide-content p {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 87px;
+    font-size: 12px;
+    font-weight: 400;
+    /* margin-bottom: 35px; */
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+  }
+  .slider-area .owl-item.active .slide-content p {
+    -webkit-animation-delay: 1100ms;
+    animation-delay: 1100ms;
+  font-size: 14px;
   }
 
   /*switchable block*/
