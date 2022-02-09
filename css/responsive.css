@@ -37,10 +37,10 @@
   .slide-content p {
     color: #fff;
     font-family: "Open Sans", sans-serif;
-    margin-top: 87px;
+    margin-top: 12px;
     font-size: 12px;
     font-weight: 400;
-    /* margin-bottom: 35px; */
+    margin-bottom: 35px;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
     -webkit-animation-duration: 1s;
