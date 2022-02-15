@@ -483,6 +483,7 @@ button:focus {
   border-color: #ebebeb;
   background-color: #fbfbfb;
   height: calc(2.52em + 0.75rem + 2px);
+  border-radius: 7px;
 }
 
 .form-control:focus {
@@ -907,6 +908,7 @@ select.form-control.has-value {
   font-size: 50px;
   line-height: initial;
   font-weight: 700;
+  
 }
 
 .slider-bg-image,
@@ -4321,7 +4323,7 @@ small {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  line-height: 158px;
+  line-height: 113px;
   padding: 0 15px;
   position: relative;
   text-transform: uppercase;
@@ -4340,6 +4342,7 @@ small {
 }
 .one.main-menu ul li ul {
   top: 65%;
+ width: 250px;
 }
 .sticky .one.main-menu ul li ul {
   top: 100%;
@@ -4383,8 +4386,10 @@ small {
   margin-right: 22px;
 }
 .main-menu ul li ul li:hover > a {
-  padding-left: 5px;
-  color: #ec1c23;
+  padding: 5px;
+  color: #fff;
+  background-color: #ec1c23;
+  width: 100%;
 }
 .main-menu ul li ul li a:before {
   display: none;
@@ -4923,7 +4928,7 @@ small {
 .slider-area .owl-item.active .slide-content p {
   -webkit-animation-delay: 1100ms;
   animation-delay: 1100ms;
-font-size: 20px;
+font-size: 25px;
 }
 .slider-area .owl-item.active .slide-content .banner-btn {
   -webkit-animation-delay: 1700ms;
@@ -5495,7 +5500,7 @@ font-size: 20px;
     margin-top: -40px;
   }
   .one.mobile-menu a.meanmenu-reveal {
-    margin-top: -70px;
+    margin-top: -39px;
   }
   .mean-container a.meanmenu-reveal {
     margin-top: -62px;
@@ -5914,7 +5919,7 @@ font-size: 20px;
     margin-top: -50px;
   }
   .one.mobile-menu a.meanmenu-reveal {
-    margin-top: -60px;
+    margin-top: -33px;
   }
   .sticky .one.mobile-menu a.meanmenu-reveal {
     margin-top: -50px;
@@ -6029,8 +6034,8 @@ font-size: 20px;
 
 /* //////footer/////// */
 .main-footer {
-  padding-bottom: 0px;
-  padding-top: 117px;
+  padding-bottom: 30px;
+  padding-top: 67px;
   background: linear-gradient(to left, #2c2b63, #cef 300%);
 }
 .footer-area.three .main-footer {
@@ -6041,10 +6046,13 @@ font-size: 20px;
   padding-bottom: 60px;
 }
 .footer-logo {
-  margin-top: -54px;
+  margin-top: 0px;
+  text-align: center;
 }
 .footer-logo img {
-  width: 100%;
+  width: 67%;
+  
+  border-radius: 15px;
 }
 .single-widget h3 {
   font-size: 20px;
@@ -6245,4 +6253,13 @@ font-size: 20px;
 
     position:absolute;
 
+}
+
+
+.hero-section .page-header-content h1{
+  position: relative;
+} 
+
+.contact-us-form .form-row .form-group{
+  padding-bottom: 10px;
 }
