@@ -31,7 +31,7 @@
     $('.slider-owl').owlCarousel({
         loop:true,
         nav:true,
-        autoplay:true,
+        autoplay:false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         smartSpeed: 5000,

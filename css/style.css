@@ -5069,6 +5069,24 @@ font-size: 25px;
   .header-area.two .main-menu nav > ul > li > a {
     font-size: 14px;
   }
+  .fixed {
+    left: 5px;
+    position: absolute;
+    width: 86%;
+    z-index: 99;
+  }
+  .main-menu nav > ul > li > a{
+    color: #fff;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 113px;
+    padding: 0px 10px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+  }
   .slide-content h3 {
     font-size: 40px;
   }
@@ -5138,6 +5156,9 @@ font-size: 25px;
   .logo {
     /* padding: 25px 0 23px; */
     width: 120px;
+  }
+  .logo img{
+    width: 221px;
   }
   .header-area.two .main-menu nav > ul > li > a {
     line-height: 122px;
@@ -5224,6 +5245,13 @@ font-size: 25px;
   .container {
     max-width: 750px;
   }
+  .fixed {
+    left: 5px;
+    position: absolute;
+    width: 78%;
+    z-index: 99;
+  }
+  
   .main-menu nav > ul > li > a {
     font-size: 12px;
     line-height: 80px;
@@ -5233,7 +5261,8 @@ font-size: 25px;
     /* padding: 20px 0 15px; */
   }
   .logo img {
-    width: 100px;
+    /* width: 100px; */
+    width: 140px;
   }
   .slide-content h3 {
     font-size: 40px;
@@ -5481,6 +5510,7 @@ font-size: 25px;
   }
   .logo {
     width: 100%;
+    padding-top: 15px !important;
   }
   .footer-area.two.ins
     > .main-footer
@@ -5500,7 +5530,7 @@ font-size: 25px;
     margin-top: -40px;
   }
   .one.mobile-menu a.meanmenu-reveal {
-    margin-top: -39px;
+    margin-top: -59px;
   }
   .mean-container a.meanmenu-reveal {
     margin-top: -62px;
@@ -5512,7 +5542,8 @@ font-size: 25px;
     /* padding: 35px 0 0px; */
   }
   .logo img {
-    width: 80px;
+    /* width: 80px; */
+    width: 147px;
   }
   .slide-content h3,
   .choose-content h2 {
@@ -5919,7 +5950,8 @@ font-size: 25px;
     margin-top: -50px;
   }
   .one.mobile-menu a.meanmenu-reveal {
-    margin-top: -33px;
+    /* margin-top: -33px; */
+    margin-top: -52px;
   }
   .sticky .one.mobile-menu a.meanmenu-reveal {
     margin-top: -50px;
