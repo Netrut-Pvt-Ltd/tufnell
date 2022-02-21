@@ -4258,9 +4258,14 @@ small {
 .logo {
   /* padding: 25px 0 0px; */
   /*    width: 60%;*/
+  
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+}
+
+ .logo img{
+  width: 200px;
 }
 .header-area.two .logo {
   padding: 40px 0 33px;
@@ -5772,9 +5777,9 @@ font-size: 25px;
   .notice-right {
     padding: 45px 40px 70px;
   }
-  .single-slide {
+  /* .single-slide {
     background-position: 50% center;
-  }
+  } */
   .event-area.two .event-content h4 a,
   .event-area.three .event-content h4 a,
   .course-title h3,
